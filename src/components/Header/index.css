@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+@media (max-width: 575px) {
+  .headerContainer {
+    padding: 15px;
+  }
+}
+
+.logoAndTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navItemsList {
+  display: flex;
+  padding-left: 0px;
+}
+
+.linkItem {
+  list-style-type: none;
+}
+
+.routeLink {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
